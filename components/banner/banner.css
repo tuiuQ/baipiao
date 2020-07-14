@@ -1,0 +1,10 @@
+#banner {
+  min-height: 150px;
+}
+#banner .carousel-item {
+  min-height: 150px;
+}
+#banner img {
+  min-height: 150px;
+  object-fit: cover;
+}

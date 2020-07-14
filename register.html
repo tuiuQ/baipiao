@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录</title>
+  <link rel="stylesheet" href="./tools/bootstrap4.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./tools/font-awesome4.7/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./tools/jquery-ui-1.12.1/jquery-ui.min.css">
+  <link rel="stylesheet" href="./lib/css/common.css">
+  <link rel="stylesheet" href="./lib/css/login.css">
+  <script src="./tools/js/jquery-3.1.1.min.js"></script>
+  <script src="./tools/bootstrap4.5/js/bootstrap.bundle.min.js"></script>
+  <script src="./tools/bootstrap4.5/js/bootstrap.min.js"></script>
+  <script src="./tools/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+  <script src="./tools/js/config.js"></script>
+  <script src="./tools/js/AjaxLoad.js"></script>
+  <script src="./tools/js/Auth.js"></script>
+  <script>
+    $(() => {
+      $("#remember").button()
+      $(".remember").buttonset()
+    })
+  </script>
+</head>
+<body>
+<section class="canvas-wrap">
+  <div class="canvas-content">
+    <div id="register-wrapper">
+      <div class="page">
+        <div class="panel">
+          <div class="panel-visible">
+            <div class="panel-content">
+              <a href="./index.html">返回主页</a>
+              <h1 class="panel-title">注册</h1>
+              <form class="form">
+                <label for="username" class="form-label" >用户名</label>
+                <input type="text" id="username" class="form-input">
+                <label for="password" class="form-label" >密码</label>
+                <input type="password" id="password" class="form-input">
+                <label for="rpassword" class="form-label" >确认密码</label>
+                <input type="password" id="rpassword" class="form-input">
+                <div class="remember">
+                  <input type="checkbox" id="remember" style="display: inline-block">
+                  <label for="remember" style="display: inline-block;">记住我</label>
+                </div>
+                <button class="form-btn" id="sub" type="button" value="登录">登录</button>
+                <button class="form-toggle" type="button"><a href="./login.html">立即登录</a></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="canvas" class="gradient"></div>
+</section>
+<script src="http://cdn.bootcss.com/three.js/r68/three.min.js"></script>
+<script src="./tools/js/projector.js"></script>
+<script src="./tools/js/canvas-renderer.js"></script>
+<script src="./tools/js/3d-lines-animation.js"></script>
+<script src="./tools/js/color.js"></script>
+</body>
+</html>

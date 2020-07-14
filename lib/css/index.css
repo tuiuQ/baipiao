@@ -1,0 +1,120 @@
+body {
+  /*background: #E4E4E4;*/
+}
+
+#main {
+  padding-top: 20px;
+}
+#main .container {
+  background: white;
+  border-left: 1px solid #F0F0F0;
+  border-right: 1px solid #F0F0F0;
+}
+#main .kai .header {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid var(--zhuC);
+}
+#main .kai .header .title {
+  font-size: 24px;
+  text-indent: 10px;
+  border-left: 10px solid var(--zhuC);
+  border-top-left-radius: 50%;
+}
+#main .kai .header .more {
+  color: #999999;
+}
+#main .kai .body {
+  margin-top: 10px;
+}
+#main .kai .body .item {
+  cursor: pointer;
+}
+#main .kai .cover {
+  padding: 5px;
+}
+#main .kai .cover img {
+  width: 100%;
+}
+#main .kai .name {
+  padding: 5px;
+}
+#main .left-wrapper {
+  border-left: 1px solid #F0F0F0;
+}
+#main .newsong .item {
+  height: 40px;
+  line-height: 35px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#main .newsong .item:hover {
+  background: #F0F0F0;
+}
+#main .newsong .item .info {
+  display: flex;
+  align-items: center;
+
+}
+#main .newsong .item .info .singer {
+  margin-right: 20px;
+}
+#main .sign {
+  padding: 10px;
+  width: 100%;
+}
+#main .sign .yi {
+  padding: 10px 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #E4E4E4;
+  display: none;
+}
+#main .sign .yi .avatar {
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#main .sign .yi .avatar img {
+  height: 100%;
+}
+#main .sign .yi .info {
+  flex: 1;
+  margin-left: 20px;
+  line-height: 30px;
+}
+#main .sign .yi .info .name {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+#main .sign .yi .info .level {
+  font-size: 12px;
+  font-weight: 100;
+  border: 1px solid #E4E4E4;
+  text-indent: 10px;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+#main .sign .wei {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+  border-bottom: 1px solid #E4E4E4;
+}
+#main .pai .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+#main .pai .ge .list-group-item {
+  cursor: pointer;
+}

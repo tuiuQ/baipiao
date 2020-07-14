@@ -1,0 +1,24 @@
+{
+  "song": [
+    {
+      "name": "你离开了南京，从此没有人跟我说话",
+      "cover": "playcover.png",
+      "author": "李志"
+    },
+    {
+      "name": "关于郑州的记忆",
+      "cover": "playcover.png",
+      "author": "李志"
+    },
+    {
+      "name": "梵高先生",
+      "cover": "playcover.png",
+      "author": "李志"
+    },
+    {
+      "name": "花樽与花",
+      "cover": "playcover.png",
+      "author": "周笔畅"
+    }
+  ]
+}

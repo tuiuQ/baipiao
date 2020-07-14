@@ -1,0 +1,40 @@
+#main .search-form .input-group {
+  width: 100%;
+  height: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#main .search-form .input-group input {
+  height: 100%;
+  text-indent: 10px;
+}
+#main .search-form .searchBtn {
+  padding: 0 20px;
+}
+#main .playlist {
+  border-top: 3px solid var(--zhuC);
+}
+#main .playlist .item {
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+#main .playlist .item:hover {
+  background: #F0F0F0;
+}
+#main .playlist .item .name {
+  width: 70%;
+}
+#main .playlist .item .info {
+  width: 30%;
+  flex: 1;
+  display: flex;
+}
+#main .playlist .item .info .singer {
+  width: 50%;
+}
+#main .playlist .item .info .album {
+  width: 50%;
+  flex: 1;
+}

@@ -1,0 +1,136 @@
+:root {
+  --bh: 75px;
+}
+body {
+  padding-bottom: 90px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 85px;
+  background: white;
+}
+#footer .progress {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+}
+#footer .progress .bar {
+  background: var(--zhuC);
+}
+#footer .play-bar {
+  height: var(--bh);
+}
+#footer .play-bar .music {
+  height: var(--bh);
+  display: flex;
+  justify-content: start;
+  align-content: center;
+}
+#footer .play-bar .music .cover {
+  height: var(--bh);
+  padding: 5px;
+}
+#footer .play-bar .music .cover img {
+  height: 100%;
+}
+#footer .play-bar .music .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#footer .play-bar .music .info .title {
+  font-size: 18px;
+  font-weight: 600;
+}
+#footer .play-bar .control {
+  height: var(--bh);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  line-height: var(--bh);
+  font-size: 32px;
+}
+#footer .play-bar .control div {
+  margin: 0 10px;
+  cursor: pointer;
+}
+#footer .play-bar .tunings {
+  height: var(--bh);
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#footer .play-bar .tunings .volume  {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+#footer .play-bar .tunings .volume .volume-progress {
+  margin-left: 10px;
+  width: 90%;
+  height: 5px;
+  background: #e9ecef;;
+}
+#footer .play-bar .tunings .volume .volume-progress .bar {
+  width: 30%;
+  height: 100%;
+  background: var(--zhuC);
+}
+#footer .play-bar .tunings .play-list {
+  margin-left: 20px;
+}
+#footer .list {
+  position: absolute;
+  bottom: 85px;
+  right: 0;
+  height: 300px;
+  width: 500px;
+  display: none;
+}
+#footer .list .header {
+  width: 100%;
+  height: 40px;
+  background: #F0F0F0;
+  padding: 5px 10px;
+  line-height: 30px;
+  font-weight: bold;
+}
+#footer .list .body {
+  background: #E4E4E4;
+}
+#footer .list .body  ul {
+  width: 100%;
+  height: 260px;
+  overflow: auto;
+  list-style-type: none;
+  padding-left: 0;
+}
+#footer .list .body ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 5px 20px;
+  line-height: 30px;
+  cursor: pointer;
+}
+#footer .list .body ul li a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+#footer .list .body ul .active {
+  background: #999999;
+}
+#footer .list .body ul li:hover {
+  background: #999999;
+}

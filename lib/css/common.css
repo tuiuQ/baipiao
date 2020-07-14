@@ -1,0 +1,19 @@
+html, body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  overflow-x: hidden;
+}
+:root {
+  --zhuC: #D39F3D;
+}
+#bottom {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #222222;
+  color: white;
+  margin-top: 60px;
+}
