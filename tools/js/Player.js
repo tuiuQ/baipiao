@@ -168,7 +168,7 @@ class Player {
 
   volumeProgressClick() {
     this.volumeProgressBox.click(e => {
-      this.obj.volume = e.offsetX / $("#footer .volume-progress")[0].width()
+      this.obj.volume = e.offsetX / $("#footer .volume-progress").width()
       this.volumeBar.css({width: e.offsetX + "px"})
     })
   }
