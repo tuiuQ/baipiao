@@ -32,6 +32,7 @@ class Player {
     this.progressClick()
     this.progressMove()
     this.listShowHide()
+    this.volumeProgressClick()
   }
 
   // 计算音乐时长
@@ -163,6 +164,13 @@ class Player {
       $("#footer .play i").removeClass("fa-play").addClass("fa-pause")
       this.progress()
     }
+  }
+
+  volumeProgressClick() {
+    this.volumeProgressBox.click(e => {
+      this.obj.volume = e.offsetX / progressW
+      this.volumeBar.css({width: e.offsetX + "px"})
+    })
   }
 
   // 进度条跟新

@@ -78,7 +78,7 @@ body {
   background: #e9ecef;;
 }
 #footer .play-bar .tunings .volume .volume-progress .bar {
-  width: 30%;
+  width: 100%;
   height: 100%;
   background: var(--zhuC);
 }
